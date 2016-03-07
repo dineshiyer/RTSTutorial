@@ -1,0 +1,669 @@
+﻿[2016.03.07-04.51.39:492][  0]Log file open, 03/07/16 10:21:39
+[2016.03.07-04.51.39:492][  0]LogInit:Display: Running engine without a game
+[2016.03.07-04.51.39:492][  0]LogInit:Display: Loading recent project file: F:/Programs/Unreal 4/RTS_Tutorial/RTS_Tutorial.uproject
+[2016.03.07-04.51.39:492][  0]LogInit:Display: RandInit(-345586898) SRandInit(-345586894).
+[2016.03.07-04.51.39:492][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.07-04.51.39:492][  0]LogStats: Stats thread started at 4.271623
+[2016.03.07-04.51.39:492][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.03.07-04.51.39:492][  0]LogInit: API Version: 2672455
+[2016.03.07-04.51.39:492][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2016.03.07-04.51.39:492][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.07-04.51.39:492][  0]LogInit: Build Configuration: Development
+[2016.03.07-04.51.39:492][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.07-04.51.39:492][  0]LogInit: Command line: 
+[2016.03.07-04.51.39:492][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.07-04.51.39:492][  0]LogInit: Rocket: 1
+[2016.03.07-04.51.39:789][  0]LogInit: Using libcurl 7.41.0
+[2016.03.07-04.51.39:789][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.07-04.51.39:789][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.07-04.51.39:789][  0]LogInit:  - other features:
+[2016.03.07-04.51.39:789][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.07-04.51.39:789][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.07-04.51.39:789][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.07-04.51.39:789][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.07-04.51.39:789][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.07-04.51.39:805][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.07-04.51.39:805][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.07-04.51.39:805][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.07-04.51.39:805][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.07-04.51.39:805][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.07-04.51.40:117][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.07-04.51.40:461][  0]LogInit: Object subsystem initialized
+[2016.03.07-04.51.40:711][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.07-04.51.40:711][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.07-04.51.40:877][  0]LogInit: Computer: DESKTOP-3CVCKVK
+[2016.03.07-04.51.40:877][  0]LogInit: User: DineshIyer
+[2016.03.07-04.51.40:877][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.07-04.51.40:885][  0]LogInit: High frequency timer resolution =1.656322 MHz
+[2016.03.07-04.51.40:886][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.03.07-04.51.40:886][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-04.51.40:886][  0]LogMemory: Process Physical Memory: 53.80 MB used, 53.80 MB peak
+[2016.03.07-04.51.40:886][  0]LogMemory: Process Virtual Memory: 57.28 MB used, 57.28 MB peak
+[2016.03.07-04.51.40:886][  0]LogMemory: Physical Memory: 2080.89 MB used, 4000.19 MB total
+[2016.03.07-04.51.40:886][  0]LogMemory: Virtual Memory: 351.23 MB used, 134217728.00 MB total
+[2016.03.07-04.51.42:263][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2016.03.07-04.51.45:339][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 11_0)
+[2016.03.07-04.51.45:339][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 1 output[s]
+[2016.03.07-04.51.45:426][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.07-04.51.45:426][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 0 output[s]
+[2016.03.07-04.51.45:426][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.07-04.51.45:438][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.07-04.51.45:439][  0]LogRHI: Texture pool is 778 MB (70% of 1112 MB)
+[2016.03.07-04.51.45:458][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.07-04.51.45:966][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/Programs/Unreal 4/RTS_Tutorial/Intermediate/Shaders/WorkingDirectory/6736/).
+[2016.03.07-04.51.45:966][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Programs/Unreal 4/RTS_Tutorial/Intermediate/Shaders/tmp/F4E2074040678097D7C19DBDAAD0EAF7/'.
+[2016.03.07-04.51.45:982][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.07-04.51.53:948][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.07-04.51.53:986][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.07-04.51.54:032][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.07-04.51.54:079][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.07-04.51.54:112][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.07-04.51.54:144][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.07-04.51.54:176][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.07-04.51.54:207][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.07-04.51.54:258][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.07-04.51.54:303][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.07-04.51.54:336][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.07-04.51.54:359][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.07-04.51.54:392][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.07-04.51.54:477][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.07-04.51.54:493][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.07-04.51.54:536][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.07-04.51.54:564][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.07-04.51.54:564][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.07-04.51.55:513][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache: Loaded boot cache 0.57s 41MB C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Programs/Unreal 4/RTS_Tutorial/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Programs/Unreal 4/RTS_Tutorial/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.07-04.51.56:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.07-04.51.56:408][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.07-04.51.56:420][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.07-04.52.05:044][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.07-04.52.05:157][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.07-04.52.07:016][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.07-04.52.07:016][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.07-04.52.11:650][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.07-04.52.33:028][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.07-04.52.34:280][  0]LogAssetRegistry: FAssetRegistry took 0.0162 seconds to start up
+[2016.03.07-04.52.39:755][  0]SourceControl: Info Source control is disabled
+[2016.03.07-04.52.39:773][  0]SourceControl: Info Source control is disabled
+[2016.03.07-04.52.39:928][  0]SourceControl: Info Source control is disabled
+[2016.03.07-04.52.40:146][  0]SourceControl: Info Source control is disabled
+[2016.03.07-04.52.41:890][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.07-04.52.42:500][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.03.07-04.52.42:500][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.03.07-04.52.43:346][  0]LogEngine: Initializing Engine...
+[2016.03.07-04.52.43:390][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.07-04.52.43:414][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.07-04.52.44:918][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.07-04.52.45:321][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-04.52.45:364][  0]LogInit: FAudioDevice initialized.
+[2016.03.07-04.52.45:502][  0]LogDerivedDataCache: Saved boot cache 0.14s 41MB C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.07-04.52.45:512][  0]LogInit: Texture streaming: Enabled
+[2016.03.07-04.52.45:698][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.07-04.52.45:727][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.03.07-04.52.45:727][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 50eed191415ea439a7660ba22e460405|6d0c6f702e3740ac804bd5f1d3dd0f9b|20c2de9e-9ecc-4ae8-b3b9-129391b1d352
+[2016.03.07-04.52.45:727][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.07-04.52.46:655][  0]LogInit: Transaction tracking system initialized
+[2016.03.07-04.52.48:575][  0]BlueprintLog: New page: Editor Load
+[2016.03.07-04.52.52:579][  0]LocalizationService: Info Localization service is disabled
+[2016.03.07-04.52.54:712][  0]LogConsoleResponse:Display: 
+[2016.03.07-04.52.59:789][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/' took 0.02s
+[2016.03.07-04.52.59:789][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.07-04.53.03:466][  0]SourceControl: Info Source control is disabled
+[2016.03.07-04.53.03:643][  0]Cmd: MAP LOAD FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.07-04.53.04:287][  0]LightingResults: New page: Lighting Build
+[2016.03.07-04.53.04:801][  0]MapCheck: New page: Map Check
+[2016.03.07-04.53.04:801][  0]LightingResults: New page: Lighting Build
+[2016.03.07-04.53.06:064][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099F2251DA0
+[2016.03.07-04.53.32:210][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-04.53.35:064][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.07-04.53.35:133][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.07-04.53.35:259][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.303ms to complete.
+[2016.03.07-04.53.35:279][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 31.676
+[2016.03.07-04.53.40:455][  0]LogCollectionManager: Loaded 0 collections in 0.010997 seconds
+[2016.03.07-04.53.40:838][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Collections/' took 0.01s
+[2016.03.07-04.53.40:838][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Developers/DineshIyer/Collections/' took 0.01s
+[2016.03.07-04.53.40:838][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Collections/' took 0.01s
+[2016.03.07-04.53.40:838][  0]LogContentBrowser: Native class hierarchy populated in 0.1114 seconds. Added 1868 classes and 335 folders.
+[2016.03.07-04.53.41:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.03.07-04.53.41:664][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.03.07-04.53.46:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.07-04.53.46:983][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.07-04.53.47:350][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.07-04.53.47:447][  0]LogLoad: Full Startup: 136.67 seconds (BP compile: 1.51 seconds)
+[2016.03.07-04.53.48:907][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.07-04.53.50:095][  0]LogRenderer: Reallocating scene render targets to support 784x396 (Frame:2).
+[2016.03.07-04.53.52:775][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.07-04.53.57:389][  9]LogAssetRegistry: Asset discovery search completed in 83.1221 seconds
+[2016.03.07-04.53.57:389][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.07-04.53.57:389][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2016.03.07-04.54.30:693][136]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.07-04.54.32:724][136]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 107 classes and 0 folders.
+[2016.03.07-04.56.46:308][728]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.07-04.59.08:595][709]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-04.59.08:723][709]LogBlueprint:Error: [compiler MyGameState] Error Message node  Set Calender
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2016.03.07-04.59.09:473][709]LogBlueprint:Warning: [compiler MyGameState] Warning [0458.68] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 863 ms]
+[2016.03.07-04.59.09:482][709]BlueprintEditorCompileResults:Error: Error Message node  Set Calender
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2016.03.07-04.59.09:482][709]BlueprintEditorCompileResults:Warning: Warning [0458.68] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 863 ms]
+[2016.03.07-05.03.18:842][351]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.03.18:897][351]LogBlueprint:Error: [compiler MyGameState] Error Message node  Set Calender
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2016.03.07-05.03.19:100][351]LogBlueprint:Warning: [compiler MyGameState] Warning [0708.32] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 257 ms]
+[2016.03.07-05.03.19:100][351]BlueprintEditorCompileResults:Error: Error Message node  Set Calender
+Using Interface I_HUD_C  must have a valid target or reference to self.
+[2016.03.07-05.03.19:100][351]BlueprintEditorCompileResults:Warning: Warning [0708.32] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 257 ms]
+[2016.03.07-05.03.20:005][408]LogRenderer: Reallocating scene render targets to support 876x564 (Frame:145).
+[2016.03.07-05.05.34:963][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.07-05.05.34:963][810]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.07-05.05.34:964][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0FBA
+[2016.03.07-05.05.34:978][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:11C9
+[2016.03.07-05.05.34:978][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.07-05.05.34:978][810]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.07-05.05.34:978][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0DD2
+[2016.03.07-05.05.34:978][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0F1B
+[2016.03.07-05.05.34:986][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0745
+[2016.03.07-05.05.34:986][810]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0745
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0FBA
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:11C9
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.07-05.05.35:235][811]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_3:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0DD2
+[2016.03.07-05.06.43:295][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.176
+[2016.03.07-05.06.43:383][622]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/MyGameState] ([1] browsable assets)...
+[2016.03.07-05.06.43:394][622]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/MyGameState]
+[2016.03.07-05.06.43:394][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-05.06.43:956][622]LogSavePackage: Save=332.375580ms
+[2016.03.07-05.06.43:956][622]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState_Auto186C8E2C84C1F2D10925DE4BC94FF6F69.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto1.uasset'
+[2016.03.07-05.06.43:999][622]LogSavePackage: Total save time: 589.698739ms
+[2016.03.07-05.06.43:999][622]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto1.uasset
+[2016.03.07-05.06.44:002][622]LogFileHelpers: Auto-saving content packages took 0.705
+[2016.03.07-05.06.45:636][716]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.06.50:798][ 35]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.06.59:235][514]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.06.59:259][514]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.06.59:284][514]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.06.59:388][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.00:583][583]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.05:474][898]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.06:340][954]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.12:266][340]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.12:977][385]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.33:538][729]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.07.57:406][315]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.08.08:745][114]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.08.09:486][157]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.08.10:026][188]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.08.13:204][382]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.08.13:587][382]BlueprintEditorCompileResults: Info [1002.81] Compile of MyGameState successful! [in 383 ms]
+[2016.03.07-05.08.53:398][ 21]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C'
+[2016.03.07-05.09.20:923][271]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CameraPawnController', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.SKEL_CameraPawnController_C'
+[2016.03.07-05.09.41:623][702]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.09.41:683][702]LogBlueprint:Error: [compiler MyGameState] Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.41:905][702]LogBlueprint:Warning: [compiler MyGameState] Warning [1091.13] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 281 ms]
+[2016.03.07-05.09.41:905][702]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.41:905][702]BlueprintEditorCompileResults:Warning: Warning [1091.13] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 281 ms]
+[2016.03.07-05.09.45:978][984]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.09.46:039][984]LogBlueprint:Error: [compiler MyGameState] Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.46:263][984]LogBlueprint:Warning: [compiler MyGameState] Warning [1095.48] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 284 ms]
+[2016.03.07-05.09.46:263][984]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.46:263][984]BlueprintEditorCompileResults:Warning: Warning [1095.48] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 284 ms]
+[2016.03.07-05.09.47:162][ 47]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.09.47:219][ 47]LogBlueprint:Error: [compiler MyGameState] Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.47:442][ 47]LogBlueprint:Warning: [compiler MyGameState] Warning [1096.66] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 279 ms]
+[2016.03.07-05.09.47:442][ 47]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.47:442][ 47]BlueprintEditorCompileResults:Warning: Warning [1096.66] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 279 ms]
+[2016.03.07-05.09.47:545][ 48]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.09.47:605][ 48]LogBlueprint:Error: [compiler MyGameState] Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.47:828][ 48]LogBlueprint:Warning: [compiler MyGameState] Warning [1097.05] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 282 ms]
+[2016.03.07-05.09.47:828][ 48]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Replace existing input connections' at  Set Calender
+Using Interface I_HUD_C 
+[2016.03.07-05.09.47:828][ 48]BlueprintEditorCompileResults:Warning: Warning [1097.05] Compile of MyGameState failed. 1 Fatal Issue(s) 0 Warning(s) [in 282 ms]
+[2016.03.07-05.10.16:934][ 75]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.10.17:138][ 75]BlueprintEditorCompileResults: Info [1126.36] Compile of MyGameState successful! [in 203 ms]
+[2016.03.07-05.11.35:138][242]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.11.53:060][206]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C'
+[2016.03.07-05.11.57:391][490]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.11.59:325][620]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C'
+[2016.03.07-05.12.02:316][843]BlueprintLog: New page: Compile MyGameState
+[2016.03.07-05.12.02:525][843]BlueprintEditorCompileResults: Info [1231.75] Compile of MyGameState successful! [in 209 ms]
+[2016.03.07-05.14.59:272][801]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.14.59:626][801]BlueprintEditorCompileResults: Info [1408.85] Compile of MainUI_HUD successful! [in 354 ms]
+[2016.03.07-05.16.53:622][258]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.16.53:904][258]BlueprintEditorCompileResults: Info [1523.12] Compile of MainUI_HUD successful! [in 281 ms]
+[2016.03.07-05.17.04:526][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2016.03.07-05.17.04:635][ 60]LogSavePackage: Save=101.393929ms
+[2016.03.07-05.17.04:635][ 60]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD0F04E63245B894F9AB365C90C986ABF4.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset'
+[2016.03.07-05.17.04:645][ 60]LogSavePackage: Total save time: 117.524251ms
+[2016.03.07-05.17.04:645][ 60]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset
+[2016.03.07-05.17.07:037][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset" SILENT=true
+[2016.03.07-05.17.07:309][186]LogSavePackage: Save=264.736572ms
+[2016.03.07-05.17.07:309][186]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState5788EBDD4DEEB089D04201975DA4D14F.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset'
+[2016.03.07-05.17.07:329][186]LogSavePackage: Total save time: 291.883461ms
+[2016.03.07-05.17.07:329][186]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset
+[2016.03.07-05.17.58:707][912]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.07-05.18.31:762][467]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.088
+[2016.03.07-05.18.31:771][467]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-05.18.31:771][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-05.18.31:771][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-05.18.31:883][467]LogSavePackage: Save=105.458359ms
+[2016.03.07-05.18.31:883][467]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto22E4906BF4F4BA8F3A6B9F48C5EC17FAB.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto2.uasset'
+[2016.03.07-05.18.31:886][467]LogSavePackage: Total save time: 114.133604ms
+[2016.03.07-05.18.31:886][467]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto2.uasset
+[2016.03.07-05.18.31:886][467]LogFileHelpers: Auto-saving content packages took 0.123
+[2016.03.07-05.19.05:480][590]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.10:437][979]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.14:333][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.14:350][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.14:366][272]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.14:392][272]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.15:497][355]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.15:514][355]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.15:533][355]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.15:559][355]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.17:137][478]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.17:168][478]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.21:069][784]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.22:348][883]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.19.33:988][815]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.19.34:353][815]BlueprintEditorCompileResults: Info [1683.57] Compile of MainUI_HUD successful! [in 366 ms]
+[2016.03.07-05.20.47:351][648]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.20.47:857][683]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.20.49:129][776]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.20.49:147][777]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.21.00:627][662]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.21.00:814][662]BlueprintEditorCompileResults: Info [1770.03] Compile of MainUI_HUD successful! [in 186 ms]
+[2016.03.07-05.21.12:014][583]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.21.13:495][690]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.21.13:513][691]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.21.20:051][187]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.21.27:233][728]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.21.27:422][728]BlueprintEditorCompileResults: Info [1796.64] Compile of MainUI_HUD successful! [in 188 ms]
+[2016.03.07-05.26.08:611][308]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.11:874][550]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.37:208][227]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.38:136][294]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.38:152][294]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.38:284][294]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.41:536][541]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.45:089][813]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.45:793][863]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.48:307][ 52]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.26.56:454][641]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.00:450][936]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.00:960][970]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.01:577][ 12]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.01:594][ 13]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.28:526][919]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.39:849][730]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.41:426][817]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.45:299][ 88]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.27.46:239][146]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.28.10:935][868]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.28.11:894][931]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.28.33:174][351]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.28.33:953][402]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.28.54:884][807]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.31.15:412][557]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.153
+[2016.03.07-05.31.15:422][557]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-05.31.15:422][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-05.31.15:422][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-05.31.15:560][557]LogSavePackage: Save=97.331917ms
+[2016.03.07-05.31.15:560][557]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto3EE64FBAE4B646C73544190A3D4CACA0D.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset'
+[2016.03.07-05.31.15:561][557]LogSavePackage: Total save time: 138.514735ms
+[2016.03.07-05.31.15:561][557]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset
+[2016.03.07-05.31.15:561][557]LogFileHelpers: Auto-saving content packages took 0.148
+[2016.03.07-05.31.56:466][938]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.32.03:405][349]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.32.05:355][461]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.32.25:802][677]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.32.26:106][677]BlueprintEditorCompileResults: Info [2455.33] Compile of MainUI_HUD successful! [in 304 ms]
+[2016.03.07-05.40.16:293][313]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.16:905][348]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.17:778][399]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.17:793][400]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.51:649][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.56:444][688]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.57:823][770]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.40.57:854][770]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.06:564][287]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.06:584][287]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.06:708][287]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.14:523][746]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.16:175][842]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.37:831][129]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.45:031][555]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.45:056][555]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.51:594][943]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.54:899][140]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.41.58:960][383]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.00:254][458]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.23:094][807]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.26:468][  6]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.41:217][638]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.42:724][727]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.42.43:095][727]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.43:101][727]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2016.03.07-05.42.43:101][727]BlueprintEditorCompileResults: Info [3072.32] Compile of MainUI_HUD successful! [in 377 ms]
+[2016.03.07-05.42.43:121][727]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.42.46:825][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2016.03.07-05.42.47:008][928]LogSavePackage: Save=143.005402ms
+[2016.03.07-05.42.47:008][928]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD1B82EF34482AEE95FA485E8569EB354E.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset'
+[2016.03.07-05.42.47:010][928]LogSavePackage: Total save time: 183.713071ms
+[2016.03.07-05.42.47:010][928]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset
+[2016.03.07-05.42.51:556][190]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.43.12:499][422]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.43.14:286][524]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.43.51:147][387]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.43.52:569][471]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.43.55:600][650]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.44.00:958][967]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.44.05:575][240]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.44.09:295][448]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.44.11:308][566]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.44.16:903][900]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.44.17:111][900]BlueprintEditorCompileResults: Info [3166.33] Compile of MainUI_HUD successful! [in 207 ms]
+[2016.03.07-05.44.44:193][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.109
+[2016.03.07-05.44.44:211][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-05.44.44:211][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-05.44.44:211][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-05.44.44:375][125]LogSavePackage: Save=147.886703ms
+[2016.03.07-05.44.44:375][125]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto458F396E44D401C3DD86BAEAAC08F587F.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto4.uasset'
+[2016.03.07-05.44.44:376][125]LogSavePackage: Total save time: 164.292332ms
+[2016.03.07-05.44.44:376][125]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto4.uasset
+[2016.03.07-05.44.44:377][125]LogFileHelpers: Auto-saving content packages took 0.176
+[2016.03.07-05.46.33:889][147]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.41:356][589]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.41:379][589]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.41:435][589]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.44:154][750]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.44:178][750]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.49:651][ 74]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.53:315][293]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.53:645][311]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.54:503][361]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.46.54:518][362]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.47.24:110][112]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.47.25:023][164]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.48.00:862][294]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.48.02:480][387]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.48.05:935][580]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-05.48.06:250][580]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.48.06:256][580]BlueprintEditorCompileResults: Info [3395.48] Compile of MainUI_HUD successful! [in 320 ms]
+[2016.03.07-05.48.06:277][580]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-05.48.06:914][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2016.03.07-05.48.07:151][616]LogSavePackage: Save=160.157257ms
+[2016.03.07-05.48.07:151][616]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD99D9B97E4DA3355989E69B8D88826A28.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset'
+[2016.03.07-05.48.07:153][616]LogSavePackage: Total save time: 238.462690ms
+[2016.03.07-05.48.07:153][616]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset
+[2016.03.07-05.48.07:992][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-05.48.07:992][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-05.48.08:034][658]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 4:48:07 pm)
+[2016.03.07-05.48.08:057][658]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-05.48.08:670][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.613127s)
+[2016.03.07-05.48.08:677][658]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-05.48.08:677][658]LogPlayLevel: PIE: World Init took: (0.007060s)
+[2016.03.07-05.48.08:693][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.636311s)
+[2016.03.07-05.48.08:859][658]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-05.48.08:871][658]LogInit: FAudioDevice initialized.
+[2016.03.07-05.48.09:118][658]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-05.48.09:153][658]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.18.09
+[2016.03.07-05.48.09:153][658]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-05.48.09:154][658]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-05.48.09:173][658]LogWorld: Bringing up level for play took: 0.053302
+[2016.03.07-05.48.09:745][658]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.787
+[2016.03.07-05.48.09:745][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-05.48.10:217][659]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:959).
+[2016.03.07-05.48.28:979][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-05.48.29:234][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-05.48.29:505][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099D2C44400
+[2016.03.07-05.49.17:571][665]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-05.49.18:649][728]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C'
+[2016.03.07-05.49.23:027][989]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C'
+[2016.03.07-06.16.24:171][463]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.16.24:588][486]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.16.25:865][560]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.16.25:881][561]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.16.50:787][ 40]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.17.41:182][965]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.17.41:532][965]BlueprintEditorCompileResults: Info [5170.75] Compile of MainUI_HUD successful! [in 350 ms]
+[2016.03.07-06.17.43:060][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.17.43:060][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-06.17.43:060][ 54]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 5:17:43 pm)
+[2016.03.07-06.17.43:060][ 54]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-06.17.43:325][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.264537s)
+[2016.03.07-06.17.43:325][ 54]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-06.17.43:326][ 54]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2016.03.07-06.17.43:326][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.266475s)
+[2016.03.07-06.17.43:412][ 54]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-06.17.43:423][ 54]LogInit: FAudioDevice initialized.
+[2016.03.07-06.17.43:462][ 54]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-06.17.43:492][ 54]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.47.43
+[2016.03.07-06.17.43:492][ 54]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.17.43:495][ 54]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.17.43:497][ 54]LogWorld: Bringing up level for play took: 0.032887
+[2016.03.07-06.17.43:523][ 54]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap -0.422
+[2016.03.07-06.17.43:523][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.17.50:742][118]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.17.50:887][118]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.17.51:001][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099AF751760
+[2016.03.07-06.18.25:039][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.101
+[2016.03.07-06.18.25:049][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-06.18.25:049][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-06.18.25:049][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-06.18.25:368][725]LogSavePackage: Save=233.379135ms
+[2016.03.07-06.18.25:369][725]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto5AF744BDD4BB00169859867A3C44CEEA1.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto5.uasset'
+[2016.03.07-06.18.25:370][725]LogSavePackage: Total save time: 320.552405ms
+[2016.03.07-06.18.25:370][725]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto5.uasset
+[2016.03.07-06.18.25:371][725]LogFileHelpers: Auto-saving content packages took 0.330
+[2016.03.07-06.19.17:959][565]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.19.18:185][565]BlueprintEditorCompileResults: Info [5267.41] Compile of MainUI_HUD successful! [in 226 ms]
+[2016.03.07-06.19.18:916][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.19.18:916][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-06.19.18:916][606]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 5:19:18 pm)
+[2016.03.07-06.19.18:916][606]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-06.19.19:152][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.236120s)
+[2016.03.07-06.19.19:152][606]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-06.19.19:153][606]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2016.03.07-06.19.19:153][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.237517s)
+[2016.03.07-06.19.19:240][606]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-06.19.19:250][606]LogInit: FAudioDevice initialized.
+[2016.03.07-06.19.19:288][606]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-06.19.19:319][606]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.49.19
+[2016.03.07-06.19.19:319][606]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.19.19:321][606]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.19.19:322][606]LogWorld: Bringing up level for play took: 0.032975
+[2016.03.07-06.19.19:349][606]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.404
+[2016.03.07-06.19.19:350][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.19.24:703][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.19.24:746][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.19.24:929][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099AF750C20
+[2016.03.07-06.19.34:775][ 93]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.45:711][733]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.45:734][733]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.45:755][733]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.45:781][733]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.52:460][124]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.52:898][149]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.55:307][291]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.55:917][326]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.19.55:935][327]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.20.27:084][123]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.20.28:623][214]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.21.33:503][ 50]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.21.33:742][ 50]BlueprintEditorCompileResults: Info [5402.96] Compile of MainUI_HUD successful! [in 239 ms]
+[2016.03.07-06.21.34:375][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.21.34:375][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-06.21.34:375][ 85]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 5:21:34 pm)
+[2016.03.07-06.21.34:375][ 85]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-06.21.34:600][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.224677s)
+[2016.03.07-06.21.34:601][ 85]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-06.21.34:601][ 85]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2016.03.07-06.21.34:601][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.226062s)
+[2016.03.07-06.21.34:695][ 85]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-06.21.34:705][ 85]LogInit: FAudioDevice initialized.
+[2016.03.07-06.21.34:746][ 85]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-06.21.34:776][ 85]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.51.34
+[2016.03.07-06.21.34:776][ 85]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.21.34:778][ 85]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.21.34:779][ 85]LogWorld: Bringing up level for play took: 0.031970
+[2016.03.07-06.21.34:807][ 85]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 0.862
+[2016.03.07-06.21.34:808][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.21.41:506][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.21.41:652][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.21.41:780][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099CEE76FC0
+[2016.03.07-06.23.06:620][558]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.23.06:932][575]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.23.07:741][622]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.23.07:756][623]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.23.34:057][188]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.23.34:399][188]BlueprintEditorCompileResults: Info [5523.62] Compile of MainUI_HUD successful! [in 342 ms]
+[2016.03.07-06.23.53:041][296]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.23.54:885][405]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.23.57:982][588]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.23.58:986][646]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.24.03:985][938]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.24.10:952][350]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/GameBP/MyGameState.SKEL_MyGameState_C'
+[2016.03.07-06.24.15:470][619]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.24.16:198][661]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.24.17:008][708]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.24.17:025][709]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.24.28:805][407]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.24.29:159][407]BlueprintEditorCompileResults: Info [5578.38] Compile of MainUI_HUD successful! [in 352 ms]
+[2016.03.07-06.25.20:558][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.20:558][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-06.25.20:558][706]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 5:25:20 pm)
+[2016.03.07-06.25.20:559][706]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-06.25.20:796][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.237372s)
+[2016.03.07-06.25.20:797][706]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-06.25.20:797][706]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2016.03.07-06.25.20:797][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.238817s)
+[2016.03.07-06.25.20:888][706]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-06.25.20:897][706]LogInit: FAudioDevice initialized.
+[2016.03.07-06.25.20:938][706]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-06.25.20:968][706]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.55.20
+[2016.03.07-06.25.20:968][706]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.25.20:968][706]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.25.20:969][706]LogWorld: Bringing up level for play took: 0.029075
+[2016.03.07-06.25.20:996][706]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.051
+[2016.03.07-06.25.20:996][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.36:739][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.36:875][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.37:013][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000099CEE43E20
+[2016.03.07-06.25.48:602][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.48:602][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-06.25.48:602][501]PIE: New page: PIE session: RTS_TestMap (07-Mar-2016 5:25:48 pm)
+[2016.03.07-06.25.48:602][501]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.07-06.25.48:830][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.228015s)
+[2016.03.07-06.25.48:831][501]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.07-06.25.48:832][501]LogPlayLevel: PIE: World Init took: (0.001774s)
+[2016.03.07-06.25.48:832][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.230056s)
+[2016.03.07-06.25.48:918][501]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.07-06.25.48:930][501]LogInit: FAudioDevice initialized.
+[2016.03.07-06.25.48:970][501]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.07-06.25.48:997][501]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.07-11.55.48
+[2016.03.07-06.25.48:997][501]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.25.48:998][501]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-06.25.48:998][501]LogWorld: Bringing up level for play took: 0.027625
+[2016.03.07-06.25.49:029][501]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.084
+[2016.03.07-06.25.49:029][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.53:612][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.53:736][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.07-06.25.53:915][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A002799E0
+[2016.03.07-06.29.11:705][171]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.086
+[2016.03.07-06.29.11:713][171]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-06.29.11:713][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-06.29.11:713][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-06.29.11:981][171]LogSavePackage: Save=195.618362ms
+[2016.03.07-06.29.11:981][171]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto6D2B7B4464C1B8686C2D180B695DB6A66.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto6.uasset'
+[2016.03.07-06.29.11:983][171]LogSavePackage: Total save time: 269.620884ms
+[2016.03.07-06.29.11:983][171]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto6.uasset
+[2016.03.07-06.29.11:983][171]LogFileHelpers: Auto-saving content packages took 0.277
+[2016.03.07-06.30.37:013][267]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.30.37:435][267]BlueprintEditorCompileResults: Info [5946.66] Compile of MainUI_HUD successful! [in 421 ms]
+[2016.03.07-06.30.59:014][225]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.30.59:355][225]BlueprintEditorCompileResults: Info [5968.58] Compile of MainUI_HUD successful! [in 341 ms]
+[2016.03.07-06.39.12:458][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.091
+[2016.03.07-06.39.12:469][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/CameraPawnController] ([1] browsable assets)...
+[2016.03.07-06.39.12:469][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/CameraPawnController]
+[2016.03.07-06.39.13:067][ 97]LogSavePackage: Save=492.391571ms
+[2016.03.07-06.39.13:067][ 97]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/CameraPawnController_Auto7E5014781431C4D1DDDF158B86E40A22C.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto7.uasset'
+[2016.03.07-06.39.13:106][ 97]LogSavePackage: Total save time: 636.285696ms
+[2016.03.07-06.39.13:106][ 97]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto7.uasset
+[2016.03.07-06.39.13:115][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.07-06.39.13:115][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.07-06.39.13:115][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-06.39.13:316][ 97]LogSavePackage: Save=192.637665ms
+[2016.03.07-06.39.13:316][ 97]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto7E6FCC77042C481CC7036089FBBA3229F.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto7.uasset'
+[2016.03.07-06.39.13:318][ 97]LogSavePackage: Total save time: 202.595267ms
+[2016.03.07-06.39.13:318][ 97]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto7.uasset
+[2016.03.07-06.39.13:318][ 97]LogFileHelpers: Auto-saving content packages took 0.859
+[2016.03.07-06.41.31:658][ 47]BlueprintLog: New page: Compile I_HUD
+[2016.03.07-06.41.31:939][ 47]BlueprintEditorCompileResults: Info [6601.16] Compile of I_HUD successful! [in 280 ms]
+[2016.03.07-06.44.02:677][439]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.10:139][997]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.21:029][809]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.21:997][879]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.22:018][880]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.24:764][ 89]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.25:317][128]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.25:904][169]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.25:928][170]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.28:160][330]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainUI_HUD', cached variable property's owner is '/Game/RTS_Tutorial/HUDs/MainUI_HUD.SKEL_MainUI_HUD_C'
+[2016.03.07-06.44.59:785][638]BlueprintLog: New page: Compile MainUI_HUD
+[2016.03.07-06.45.00:657][638]BlueprintEditorCompileResults: Info [6809.88] Compile of MainUI_HUD successful! [in 872 ms]
+[2016.03.07-06.45.57:897][  5]BlueprintLog: New page: Compile CameraPawnController
+[2016.03.07-06.45.58:288][  5]BlueprintEditorCompileResults: Info [6867.51] Compile of CameraPawnController successful! [in 390 ms]
+[2016.03.07-06.49.14:183][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.094
+[2016.03.07-06.49.14:192][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/MyGameState] ([1] browsable assets)...
+[2016.03.07-06.49.14:192][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/MyGameState]
+[2016.03.07-06.49.14:192][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2016.03.07-06.49.14:587][679]LogSavePackage: Save=305.146576ms
+[2016.03.07-06.49.14:587][679]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState_Auto85F3796E847540E18CF39B998A3D4A0C7.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Sav
