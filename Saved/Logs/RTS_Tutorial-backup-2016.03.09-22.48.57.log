@@ -1,0 +1,920 @@
+﻿[2016.03.09-13.12.58:425][  0]Log file open, 03/09/16 18:42:58
+[2016.03.09-13.12.58:425][  0]LogInit:Display: Running engine without a game
+[2016.03.09-13.12.58:425][  0]LogInit:Display: Loading recent project file: F:/Programs/Unreal 4/RTS_Tutorial/RTS_Tutorial.uproject
+[2016.03.09-13.12.58:425][  0]LogInit:Display: RandInit(20191441) SRandInit(20191444).
+[2016.03.09-13.12.58:425][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.09-13.12.58:425][  0]LogStats: Stats thread started at 11.038686
+[2016.03.09-13.12.58:425][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.03.09-13.12.58:425][  0]LogInit: API Version: 2672455
+[2016.03.09-13.12.58:457][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2016.03.09-13.12.58:457][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.09-13.12.58:457][  0]LogInit: Build Configuration: Development
+[2016.03.09-13.12.58:457][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.09-13.12.58:457][  0]LogInit: Command line: 
+[2016.03.09-13.12.58:457][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.09-13.12.58:457][  0]LogInit: Rocket: 1
+[2016.03.09-13.12.58:644][  0]LogInit: Using libcurl 7.41.0
+[2016.03.09-13.12.58:644][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.09-13.12.58:644][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.09-13.12.58:644][  0]LogInit:  - other features:
+[2016.03.09-13.12.58:644][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.09-13.12.58:644][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.09-13.12.58:644][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.09-13.12.58:644][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.09-13.12.58:644][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.09-13.12.58:644][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.09-13.12.58:644][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.09-13.12.58:644][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.09-13.12.58:644][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.09-13.12.58:644][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.09-13.12.58:832][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.09-13.12.59:097][  0]LogInit: Object subsystem initialized
+[2016.03.09-13.12.59:441][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.09-13.12.59:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.09-13.12.59:597][  0]LogInit: Computer: DESKTOP-3CVCKVK
+[2016.03.09-13.12.59:597][  0]LogInit: User: DineshIyer
+[2016.03.09-13.12.59:597][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.09-13.12.59:606][  0]LogInit: High frequency timer resolution =1.656319 MHz
+[2016.03.09-13.12.59:608][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.03.09-13.12.59:608][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.09-13.12.59:608][  0]LogMemory: Process Physical Memory: 54.66 MB used, 54.66 MB peak
+[2016.03.09-13.12.59:608][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2016.03.09-13.12.59:608][  0]LogMemory: Physical Memory: 2120.82 MB used, 4000.19 MB total
+[2016.03.09-13.12.59:608][  0]LogMemory: Virtual Memory: 349.76 MB used, 134217728.00 MB total
+[2016.03.09-13.13.00:773][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2016.03.09-13.13.03:052][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 11_0)
+[2016.03.09-13.13.03:053][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 1 output[s]
+[2016.03.09-13.13.03:055][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.09-13.13.03:055][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 0 output[s]
+[2016.03.09-13.13.03:055][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.09-13.13.03:064][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.09-13.13.03:064][  0]LogRHI: Texture pool is 778 MB (70% of 1112 MB)
+[2016.03.09-13.13.03:081][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.09-13.13.03:634][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/Programs/Unreal 4/RTS_Tutorial/Intermediate/Shaders/WorkingDirectory/5976/).
+[2016.03.09-13.13.03:634][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Programs/Unreal 4/RTS_Tutorial/Intermediate/Shaders/tmp/A949547E437E559B5BBB4E9F196A5722/'.
+[2016.03.09-13.13.03:650][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.09-13.13.12:926][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.09-13.13.12:982][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.09-13.13.13:014][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.09-13.13.13:040][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.09-13.13.13:066][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.09-13.13.13:083][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.09-13.13.13:103][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.09-13.13.13:123][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.09-13.13.13:148][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.09-13.13.13:165][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.09-13.13.13:183][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.09-13.13.13:206][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.09-13.13.13:224][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.09-13.13.13:310][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.09-13.13.13:328][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.09-13.13.13:363][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.09-13.13.13:379][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.09-13.13.13:379][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.09-13.13.14:224][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache: Loaded boot cache 0.41s 41MB C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Programs/Unreal 4/RTS_Tutorial/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Programs/Unreal 4/RTS_Tutorial/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.09-13.13.14:636][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.09-13.13.14:966][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.09-13.13.14:979][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.09-13.13.23:389][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.09-13.13.23:656][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.09-13.13.25:997][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.09-13.13.25:997][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.09-13.13.31:616][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.09-13.13.53:221][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.09-13.13.54:364][  0]LogAssetRegistry: FAssetRegistry took 0.0173 seconds to start up
+[2016.03.09-13.14.00:260][  0]SourceControl: Info Source control is disabled
+[2016.03.09-13.14.00:264][  0]SourceControl: Info Source control is disabled
+[2016.03.09-13.14.00:410][  0]SourceControl: Info Source control is disabled
+[2016.03.09-13.14.00:572][  0]SourceControl: Info Source control is disabled
+[2016.03.09-13.14.03:829][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.09-13.14.04:598][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.03.09-13.14.04:598][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.03.09-13.14.05:768][  0]LogEngine: Initializing Engine...
+[2016.03.09-13.14.05:871][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.09-13.14.05:975][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.09-13.14.07:413][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.09-13.14.08:250][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-13.14.08:970][  0]LogInit: FAudioDevice initialized.
+[2016.03.09-13.14.09:015][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Dinesh Iyer/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.09-13.14.09:088][  0]LogInit: Texture streaming: Enabled
+[2016.03.09-13.14.09:258][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.09-13.14.09:260][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.03.09-13.14.09:260][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 50eed191415ea439a7660ba22e460405|6d0c6f702e3740ac804bd5f1d3dd0f9b|20c2de9e-9ecc-4ae8-b3b9-129391b1d352
+[2016.03.09-13.14.09:278][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.09-13.14.09:487][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.09-13.14.09:926][  0]LogInit: Transaction tracking system initialized
+[2016.03.09-13.14.10:916][  0]BlueprintLog: New page: Editor Load
+[2016.03.09-13.14.15:114][  0]LocalizationService: Info Localization service is disabled
+[2016.03.09-13.14.17:310][  0]LogConsoleResponse:Display: 
+[2016.03.09-13.14.23:896][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/' took 0.35s
+[2016.03.09-13.14.23:896][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.09-13.14.27:924][  0]SourceControl: Info Source control is disabled
+[2016.03.09-13.14.28:380][  0]Cmd: MAP LOAD FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.09-13.14.28:473][  0]LightingResults: New page: Lighting Build
+[2016.03.09-13.14.30:070][  0]MapCheck: New page: Map Check
+[2016.03.09-13.14.30:071][  0]LightingResults: New page: Lighting Build
+[2016.03.09-13.14.32:689][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF066B9DA0
+[2016.03.09-13.14.55:457][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-13.14.59:782][  0]LogEditorServer: Finished looking for orphan Actors (0.026 secs)
+[2016.03.09-13.15.00:463][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.09-13.15.00:770][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 283.584ms to complete.
+[2016.03.09-13.15.00:792][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 32.507
+[2016.03.09-13.15.06:656][  0]LogCollectionManager: Loaded 0 collections in 0.009690 seconds
+[2016.03.09-13.15.06:842][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Collections/' took 0.01s
+[2016.03.09-13.15.06:842][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Developers/DineshIyer/Collections/' took 0.01s
+[2016.03.09-13.15.06:842][  0]LogFileCache: Scanning file cache for directory 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Collections/' took 0.01s
+[2016.03.09-13.15.06:842][  0]LogContentBrowser: Native class hierarchy populated in 0.0464 seconds. Added 1868 classes and 335 folders.
+[2016.03.09-13.15.06:945][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.03.09-13.15.07:150][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.09-13.15.08:954][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.09-13.15.09:023][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.09-13.15.09:510][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.09-13.15.09:655][  0]LogLoad: Full Startup: 146.66 seconds (BP compile: 1.37 seconds)
+[2016.03.09-13.15.11:073][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.09-13.15.13:324][  0]LogRenderer: Reallocating scene render targets to support 784x384 (Frame:2).
+[2016.03.09-13.15.16:159][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.09-13.15.19:855][  8]LogAssetRegistry: Asset discovery search completed in 85.5048 seconds
+[2016.03.09-13.15.19:868][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2016.03.09-13.15.19:875][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.019770 seconds (updated 0 objects)
+[2016.03.09-14.14.28:943][995]LogHttp:Warning: Timeout processing Http request. 000000FF11763200
+[2016.03.09-15.34.21:841][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error No delegate function name  Create Event 
+[2016.03.09-15.34.21:856][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2016.03.09-15.34.21:857][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error Event signature error:  No function name.  Create Event 
+[2016.03.09-15.34.21:866][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8499.05] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 0 Warning(s) [in 43 ms]
+[2016.03.09-15.34.21:866][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8499.05] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.09-15.34.21:866][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8499.05] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.09-15.34.22:187][741]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buiding/Residential/ResidentialMasterBP.ResidentialMasterBP_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.09-15.34.22:204][741]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buiding/Residential/Apartmentsmall_BP.Apartmentsmall_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.09-15.34.22:380][741]LogBlueprint:Error: [compiler MainUI_HUD] Error Unable to find function with name ConstructBuildings for Message node  Invalid Message Node .
+[2016.03.09-15.34.22:380][741]LogBlueprint:Error: [compiler MainUI_HUD] Error Unable to find function with name ConstructBuildings for Message node  Invalid Message Node .
+[2016.03.09-15.34.22:380][741]LogBlueprint:Error: [compiler MainUI_HUD] Error Could not find a function named "ConstructBuildings" in 'I_HUD_C'.
+Make sure 'I_HUD_C' has been compiled for  Invalid Message Node 
+[2016.03.09-15.34.22:404][741]LogBlueprint:Error: [compiler MainUI_HUD] Error Could not find a function named "ConstructBuildings" in 'I_HUD_C'.
+Make sure 'I_HUD_C' has been compiled for  Invalid Message Node 
+[2016.03.09-15.34.22:517][741]LogBlueprint:Warning: [compiler MainUI_HUD] Warning [8499.70] Compile of MainUI_HUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 141 ms]
+[2016.03.09-15.34.22:517][741]LogBlueprint:Warning: [compiler MainUI_HUD] Warning [8499.70] Compile of MainUI_HUD failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.09-15.34.22:517][741]LogBlueprint:Warning: [compiler MainUI_HUD] Warning [8499.70] Compile of MainUI_HUD failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.09-15.34.23:303][741]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.34.23:324][741]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [8500.51] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 47 ms]
+[2016.03.09-15.34.23:324][741]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [8500.51] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.09-15.34.23:326][741]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [8500.51] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 2 Warning(s) [in 1 ms]
+[2016.03.09-15.34.23:338][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error No delegate function name  Create Event 
+[2016.03.09-15.34.23:339][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2016.03.09-15.34.23:339][741]LogBlueprint:Error: [compiler ConstructionManager_BP] Error Event signature error:  No function name.  Create Event 
+[2016.03.09-15.34.23:346][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8500.53] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2016.03.09-15.34.23:346][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8500.53] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.09-15.34.23:347][741]LogBlueprint:Warning: [compiler ConstructionManager_BP] Warning [8500.53] Compile of ConstructionManager_BP failed. 3 Fatal Issue(s) 2 Warning(s) [in 1 ms]
+[2016.03.09-15.34.24:198][741]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.09-15.34.26:421][741]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0240 seconds. Added 107 classes and 0 folders.
+[2016.03.09-15.36.28:713][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.09-15.36.28:713][183]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.09-15.36.28:714][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:12FF
+[2016.03.09-15.36.28:725][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:150E
+[2016.03.09-15.36.28:726][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.09-15.36.28:726][183]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.09-15.36.28:726][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1117
+[2016.03.09-15.36.28:726][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1260
+[2016.03.09-15.36.28:748][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0621
+[2016.03.09-15.36.28:748][183]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0621
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:12FF
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:150E
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2016.03.09-15.36.29:124][184]LogScript:Warning: Accessed None 'CamerPawnRef'
+	CameraPawnController_C /Engine/Transient.World_4:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1117
+[2016.03.09-15.37.38:589][ 71]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.37.39:505][ 71]BlueprintEditorCompileResults: Info [8696.66] Compile of ConstructionManager_BP successful! [in 882 ms]
+[2016.03.09-15.38.19:729][588]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.090
+[2016.03.09-15.38.19:804][588]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP] ([1] browsable assets)...
+[2016.03.09-15.38.19:805][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP]
+[2016.03.09-15.38.20:000][588]LogSavePackage: Save=132.763672ms
+[2016.03.09-15.38.20:000][588]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BP_Auto1BEAA0B9F4E528BB8480CFCB64AABCD85.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP_Auto1.uasset'
+[2016.03.09-15.38.20:033][588]LogSavePackage: Total save time: 214.295071ms
+[2016.03.09-15.38.20:033][588]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP_Auto1.uasset
+[2016.03.09-15.38.20:033][588]LogFileHelpers: Auto-saving content packages took 0.301
+[2016.03.09-15.39.39:333][715]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.39.39:707][715]BlueprintEditorCompileResults: Info [8816.89] Compile of ConstructionManager_BP successful! [in 374 ms]
+[2016.03.09-15.39.42:613][907]LogSavePackage: Save=48.537750ms
+[2016.03.09-15.39.42:613][907]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BP6510FFB347915B4C782C19A110A4897D.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset'
+[2016.03.09-15.39.42:615][907]LogSavePackage: Total save time: 63.481729ms
+[2016.03.09-15.39.42:615][907]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset
+[2016.03.09-15.40.22:023][786]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.40.22:230][786]BlueprintEditorCompileResults: Info [8859.41] Compile of ConstructionManager_BP successful! [in 206 ms]
+[2016.03.09-15.40.51:123][899]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.40.51:441][899]BlueprintEditorCompileResults: Info [8888.63] Compile of ConstructionManager_BP successful! [in 317 ms]
+[2016.03.09-15.41.17:287][208]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.41.17:567][208]BlueprintEditorCompileResults: Info [8914.75] Compile of ConstructionManager_BP successful! [in 280 ms]
+[2016.03.09-15.41.57:845][756]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.01:590][ 22]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.07:693][467]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.07:705][467]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.07:717][467]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.07:747][467]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.10:377][663]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.14:578][984]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.19:954][398]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.30:654][164]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.30:669][164]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.30:681][164]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.30:773][164]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.34:108][419]LogClass:Warning: Type mismatch in Queue of SKEL_ConstructionManager_BP_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.03.09-15.42.34:115][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.34:126][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.34:141][419]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.34:177][419]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.34:620][449]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.35:691][531]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.42.36:179][531]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.42.36:181][531]BlueprintEditorCompileResults: Info [8993.37] Compile of ConstructionManager_BP successful! [in 489 ms]
+[2016.03.09-15.42.36:209][531]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.29:355][ 41]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.34:974][455]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.38:156][673]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.38:168][673]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.38:180][673]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.38:210][673]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.39:325][747]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.43:717][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.44:254][ 91]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.44.44:803][130]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.01:547][413]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.02:389][472]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.03:245][533]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.19:841][771]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.24:316][105]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.26:442][260]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.35:459][919]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.37:503][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.39:926][239]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.53:799][244]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.53:842][244]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.54:235][270]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.45.55:231][341]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.07:198][839]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.07:948][890]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.07:999][893]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.11:257][117]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.21:764][737]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.21:796][737]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.23:337][838]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.28:363][173]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.46.28:658][173]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.46.28:661][173]BlueprintEditorCompileResults: Info [9225.85] Compile of ConstructionManager_BP successful! [in 298 ms]
+[2016.03.09-15.46.28:694][173]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.48.19:323][435]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.48.44:692][198]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.49.29:818][464]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.49.30:002][464]BlueprintEditorCompileResults: Info [9407.19] Compile of ConstructionManager_BP successful! [in 183 ms]
+[2016.03.09-15.49.30:646][495]LogSavePackage: Save=72.097221ms
+[2016.03.09-15.49.30:646][495]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BPCAA061E14B8892468308F7975B720451.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset'
+[2016.03.09-15.49.30:649][495]LogSavePackage: Total save time: 90.545360ms
+[2016.03.09-15.49.30:650][495]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset
+[2016.03.09-15.51.22:738][376]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.51.22:922][376]BlueprintEditorCompileResults: Info [9520.11] Compile of ConstructionManager_BP successful! [in 183 ms]
+[2016.03.09-15.51.48:843][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.084
+[2016.03.09-15.51.48:851][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP] ([1] browsable assets)...
+[2016.03.09-15.51.48:851][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP]
+[2016.03.09-15.51.48:974][530]LogSavePackage: Save=105.467003ms
+[2016.03.09-15.51.48:974][530]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BP_Auto294C4C3314CBE82A9555CBBB46A4011B4.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP_Auto2.uasset'
+[2016.03.09-15.51.48:991][530]LogSavePackage: Total save time: 139.029376ms
+[2016.03.09-15.51.48:991][530]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP_Auto2.uasset
+[2016.03.09-15.51.48:991][530]LogFileHelpers: Auto-saving content packages took 0.147
+[2016.03.09-15.52.44:728][527]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.52.44:914][527]BlueprintEditorCompileResults: Info [9602.10] Compile of ConstructionManager_BP successful! [in 185 ms]
+[2016.03.09-15.52.45:913][590]LogSavePackage: Save=90.267029ms
+[2016.03.09-15.52.45:913][590]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BP2A37F7B04140324EC50AC9A4559ECB40.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset'
+[2016.03.09-15.52.45:915][590]LogSavePackage: Total save time: 105.573259ms
+[2016.03.09-15.52.45:915][590]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset
+[2016.03.09-15.53.06:209][ 88]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.53.06:397][ 88]BlueprintEditorCompileResults: Info [9623.58] Compile of ConstructionManager_BP successful! [in 187 ms]
+[2016.03.09-15.55.19:375][118]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.20:115][168]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.20:644][203]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.21:726][278]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.22:721][341]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.23:647][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.37:452][119]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.55.38:802][205]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionManager_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.SKEL_ConstructionManager_BP_C'
+[2016.03.09-15.56.43:746][908]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.56.44:030][908]BlueprintEditorCompileResults: Info [9841.21] Compile of ConstructionManager_BP successful! [in 284 ms]
+[2016.03.09-15.56.44:570][933]LogSavePackage: Save=111.437469ms
+[2016.03.09-15.56.44:570][933]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BPE84B23194F316DE95301B6A7E0B23891.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset'
+[2016.03.09-15.56.44:572][933]LogSavePackage: Total save time: 128.490344ms
+[2016.03.09-15.56.44:572][933]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset
+[2016.03.09-15.57.54:287][280]BlueprintLog: New page: Compile ConstructionManager_BP
+[2016.03.09-15.57.54:480][280]BlueprintEditorCompileResults: Info [9911.67] Compile of ConstructionManager_BP successful! [in 193 ms]
+[2016.03.09-15.57.55:036][306]LogSavePackage: Save=114.421196ms
+[2016.03.09-15.57.55:036][306]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ConstructionManager_BPA54843F948C728CB178BED94BD29BF82.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset'
+[2016.03.09-15.57.55:039][306]LogSavePackage: Total save time: 130.552147ms
+[2016.03.09-15.57.55:039][306]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Construction/ConstructionManager_BP.uasset
+[2016.03.09-15.59.09:695][296]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-15.59.10:258][335]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-15.59.13:869][578]BlueprintLog: New page: Compile BuildingMaster_BP
+[2016.03.09-15.59.14:627][578]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-15.59.14:628][578]BlueprintEditorCompileResults: Info [9991.81] Compile of BuildingMaster_BP successful! [in 759 ms]
+[2016.03.09-15.59.14:651][578]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-15.59.16:991][735]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.17:059][735]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.17:294][735]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [9994.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 302 ms]
+[2016.03.09-15.59.17:294][735]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.17:294][735]BlueprintEditorCompileResults:Warning: Warning [9994.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 302 ms]
+[2016.03.09-15.59.22:183][ 59]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.22:255][ 59]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.22:501][ 59]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [9999.69] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 318 ms]
+[2016.03.09-15.59.22:501][ 59]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.22:501][ 59]BlueprintEditorCompileResults:Warning: Warning [9999.69] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 318 ms]
+[2016.03.09-15.59.31:360][634]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.31:429][634]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.31:673][634]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0008.86] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.03.09-15.59.31:673][634]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.31:673][634]BlueprintEditorCompileResults:Warning: Warning [0008.86] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.03.09-15.59.33:650][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.uasset" SILENT=true
+[2016.03.09-15.59.33:695][751]LogSavePackage: Save=29.170710ms
+[2016.03.09-15.59.33:695][751]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/BuildingMaster_BP9D4E00284578619E7FBDD7B2F64E9260.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.uasset'
+[2016.03.09-15.59.33:697][751]LogSavePackage: Total save time: 45.849260ms
+[2016.03.09-15.59.33:697][751]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.uasset
+[2016.03.09-15.59.33:744][751]LogSavePackage: Save=15.787417ms
+[2016.03.09-15.59.33:744][751]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Commercial_office-B_Child620BDE03435E41289306D883F2C16388.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Commercial/Commercial_office-B_Child.uasset'
+[2016.03.09-15.59.33:746][751]LogSavePackage: Total save time: 31.469785ms
+[2016.03.09-15.59.33:746][751]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Commercial/Commercial_office-B_Child.uasset
+[2016.03.09-15.59.33:792][751]LogSavePackage: Save=16.606100ms
+[2016.03.09-15.59.33:792][751]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Commercial_Master_BD3B7130B4EB5BCF71126B6B60C725D49.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Commercial/Commercial_Master_B.uasset'
+[2016.03.09-15.59.33:794][751]LogSavePackage: Total save time: 34.390114ms
+[2016.03.09-15.59.33:794][751]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Commercial/Commercial_Master_B.uasset
+[2016.03.09-15.59.33:843][751]LogSavePackage: Save=16.964727ms
+[2016.03.09-15.59.33:843][751]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Apartmentsmall_BPB3BD551D4903DA6E73DE3FB08CCF8639.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Residential/Apartmentsmall_BP.uasset'
+[2016.03.09-15.59.33:845][751]LogSavePackage: Total save time: 32.966476ms
+[2016.03.09-15.59.33:845][751]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Residential/Apartmentsmall_BP.uasset
+[2016.03.09-15.59.33:892][751]LogSavePackage: Save=19.341082ms
+[2016.03.09-15.59.33:892][751]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/ResidentialMasterBPEC072BDE469C24A4E46F899C526EB122.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Residential/ResidentialMasterBP.uasset'
+[2016.03.09-15.59.33:894][751]LogSavePackage: Total save time: 35.467204ms
+[2016.03.09-15.59.33:894][751]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/Residential/ResidentialMasterBP.uasset
+[2016.03.09-15.59.34:599][796]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.34:669][796]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.34:913][796]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0012.10] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 314 ms]
+[2016.03.09-15.59.34:913][796]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.34:913][796]BlueprintEditorCompileResults:Warning: Warning [0012.10] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 314 ms]
+[2016.03.09-15.59.52:983][972]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.53:055][972]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.53:297][972]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0030.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.03.09-15.59.53:298][972]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.53:298][972]BlueprintEditorCompileResults:Warning: Warning [0030.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.03.09-15.59.57:213][219]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.57:278][219]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.57:525][219]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0034.71] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 311 ms]
+[2016.03.09-15.59.57:525][219]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.57:525][219]BlueprintEditorCompileResults:Warning: Warning [0034.71] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 311 ms]
+[2016.03.09-15.59.59:457][340]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-15.59.59:520][340]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.59:763][340]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0036.95] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 306 ms]
+[2016.03.09-15.59.59:763][340]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-15.59.59:763][340]BlueprintEditorCompileResults:Warning: Warning [0036.95] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 306 ms]
+[2016.03.09-16.00.20:319][655]LogRenderer: Reallocating scene render targets to support 876x456 (Frame:30419).
+[2016.03.09-16.01.02:585][252]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.01.02:648][252]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.09-16.01.03:019][252]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0100.20] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 434 ms]
+[2016.03.09-16.01.03:019][252]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.09-16.01.03:019][252]BlueprintEditorCompileResults:Warning: Warning [0100.20] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 434 ms]
+[2016.03.09-16.01.21:513][392]LogEditorTransaction: Undo Delete current selection
+[2016.03.09-16.01.22:342][431]LogEditorTransaction: Undo Create Pin Link
+[2016.03.09-16.01.22:850][458]LogEditorTransaction: Undo Move Node
+[2016.03.09-16.01.23:370][486]LogEditorTransaction: Undo Add Node
+[2016.03.09-16.01.23:916][517]LogEditorTransaction: Undo Delete current selection
+[2016.03.09-16.01.48:847][ 16]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.01.48:915][ 16]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-16.01.49:294][ 16]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0146.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 447 ms]
+[2016.03.09-16.01.49:294][ 16]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ConstructBuildings; second occurance at  (none) 
+[2016.03.09-16.01.49:294][ 16]BlueprintEditorCompileResults:Warning: Warning [0146.48] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 447 ms]
+[2016.03.09-16.02.16:053][694]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.02.16:415][694]BlueprintEditorCompileResults: Info [0173.60] Compile of GhostBuilding_BP successful! [in 362 ms]
+[2016.03.09-16.02.17:676][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.17:677][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.09-16.02.17:712][763]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:02:17 am)
+[2016.03.09-16.02.17:736][763]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.02.18:405][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.669515s)
+[2016.03.09-16.02.18:432][763]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.02.18:432][763]LogPlayLevel: PIE: World Init took: (0.026756s)
+[2016.03.09-16.02.18:439][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.702779s)
+[2016.03.09-16.02.18:609][763]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.02.18:643][763]LogInit: FAudioDevice initialized.
+[2016.03.09-16.02.19:244][763]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.02.19:528][763]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2016.03.09-21.32.19
+[2016.03.09-16.02.19:528][763]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.02.19:529][763]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.02.19:550][763]LogWorld: Bringing up level for play took: 0.049897
+[2016.03.09-16.02.20:167][763]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 2.295
+[2016.03.09-16.02.20:167][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.20:603][764]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:30427).
+[2016.03.09-16.02.30:791][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.31:001][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.31:364][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF5F57CAE0
+[2016.03.09-16.02.42:793][530]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.02.43:037][530]BlueprintEditorCompileResults: Info [0200.22] Compile of GhostBuilding_BP successful! [in 243 ms]
+[2016.03.09-16.02.43:889][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.43:889][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.09-16.02.43:889][578]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:02:43 am)
+[2016.03.09-16.02.43:889][578]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.02.44:101][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.211795s)
+[2016.03.09-16.02.44:102][578]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.02.44:102][578]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2016.03.09-16.02.44:103][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.213747s)
+[2016.03.09-16.02.44:182][578]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.02.44:226][578]LogInit: FAudioDevice initialized.
+[2016.03.09-16.02.44:272][578]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.02.44:306][578]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2016.03.09-21.32.44
+[2016.03.09-16.02.44:306][578]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.02.44:307][578]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.02.44:307][578]LogWorld: Bringing up level for play took: 0.033885
+[2016.03.09-16.02.44:361][578]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 0.501
+[2016.03.09-16.02.44:362][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.53:279][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.53:421][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.02.53:558][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF54F9A340
+[2016.03.09-16.03.20:024][237]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.03.20:855][284]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.03.20:933][284]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.04.07:954][426]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.04.08:350][426]BlueprintEditorCompileResults: Info [0285.54] Compile of GhostBuilding_BP successful! [in 396 ms]
+[2016.03.09-16.04.09:128][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.04.09:128][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.09-16.04.09:129][469]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:04:09 am)
+[2016.03.09-16.04.09:129][469]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.04.09:362][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233396s)
+[2016.03.09-16.04.09:363][469]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.04.09:363][469]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2016.03.09-16.04.09:364][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.235027s)
+[2016.03.09-16.04.09:445][469]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.04.09:456][469]LogInit: FAudioDevice initialized.
+[2016.03.09-16.04.09:498][469]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.04.09:530][469]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2016.03.09-21.34.09
+[2016.03.09-16.04.09:530][469]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.04.09:530][469]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.04.09:531][469]LogWorld: Bringing up level for play took: 0.031824
+[2016.03.09-16.04.09:584][469]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap -0.275
+[2016.03.09-16.04.09:587][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.04.16:832][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.04.16:981][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.04.17:199][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF5FDC4C20
+[2016.03.09-16.05.13:389][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/I_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset" SILENT=true
+[2016.03.09-16.05.13:417][672]LogSavePackage: Save=11.981992ms
+[2016.03.09-16.05.13:417][672]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/I_HUD16DA68E94100F24D8AAD728D63BE43B2.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset'
+[2016.03.09-16.05.13:419][672]LogSavePackage: Total save time: 29.051770ms
+[2016.03.09-16.05.13:419][672]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset
+[2016.03.09-16.05.13:428][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset" SILENT=true
+[2016.03.09-16.05.13:741][672]LogSavePackage: Save=190.894989ms
+[2016.03.09-16.05.13:741][672]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/GhostBuilding_BP870D76D046CD2431036D9782C945EF16.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset'
+[2016.03.09-16.05.13:743][672]LogSavePackage: Total save time: 314.511273ms
+[2016.03.09-16.05.13:743][672]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset
+[2016.03.09-16.06.05:992][ 77]BlueprintLog: New page: Compile I_HUD
+[2016.03.09-16.06.06:320][ 77]BlueprintEditorCompileResults: Info [0403.50] Compile of I_HUD successful! [in 327 ms]
+[2016.03.09-16.06.06:686][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/I_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset" SILENT=true
+[2016.03.09-16.06.06:713][116]LogSavePackage: Save=11.722380ms
+[2016.03.09-16.06.06:713][116]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/I_HUDA9AE43954DB07DB2531C2DB2FBBFD562.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset'
+[2016.03.09-16.06.06:714][116]LogSavePackage: Total save time: 26.996613ms
+[2016.03.09-16.06.06:714][116]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/Interfaces/I_HUD.uasset
+[2016.03.09-16.06.16:314][730]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.06.16:374][730]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.09-16.06.16:745][730]LogBlueprint:Error: [compiler GhostBuilding_BP] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.09-16.06.17:564][730]LogBlueprint:Warning: [compiler GhostBuilding_BP] Warning [0414.75] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,250 ms]
+[2016.03.09-16.06.17:564][730]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.09-16.06.17:564][730]BlueprintEditorCompileResults:Warning: Warning [0414.75] Compile of GhostBuilding_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,250 ms]
+[2016.03.09-16.08.46:808][848]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.08.47:319][848]BlueprintEditorCompileResults: Info [0564.50] Compile of GhostBuilding_BP successful! [in 511 ms]
+[2016.03.09-16.08.47:704][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.08.47:705][858]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.09-16.08.47:708][858]LogPlayLevel: [PlayLevel] Compiling MainUI_HUD before play...
+[2016.03.09-16.08.48:063][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 359 ms (2 blueprints)
+[2016.03.09-16.08.48:073][858]LogPlayLevel: [PlayLevel] Compiling CameraPawnController before play...
+[2016.03.09-16.08.48:486][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 782 ms (4 blueprints)
+[2016.03.09-16.08.48:498][858]LogPlayLevel: [PlayLevel] Compiling GhostBuilding_BP before play...
+[2016.03.09-16.08.48:694][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 989 ms (4 blueprints)
+[2016.03.09-16.08.48:698][858]LogPlayLevel: [PlayLevel] Compiling MyGameState before play...
+[2016.03.09-16.08.48:874][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 1169 ms (4 blueprints)
+[2016.03.09-16.08.49:000][858]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:08:48 am)
+[2016.03.09-16.08.49:000][858]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.08.49:305][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.304686s)
+[2016.03.09-16.08.49:305][858]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.08.49:306][858]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2016.03.09-16.08.49:306][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.306047s)
+[2016.03.09-16.08.49:396][858]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.08.49:410][858]LogInit: FAudioDevice initialized.
+[2016.03.09-16.08.49:466][858]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.08.49:497][858]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.09-21.38.49
+[2016.03.09-16.08.49:497][858]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.08.49:499][858]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.08.49:501][858]LogWorld: Bringing up level for play took: 0.032208
+[2016.03.09-16.08.49:538][858]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.678
+[2016.03.09-16.08.49:538][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.08.59:444][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.08.59:604][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.08.59:783][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF57DA94E0
+[2016.03.09-16.09.23:697][189]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.09.23:945][189]BlueprintEditorCompileResults: Info [0601.13] Compile of GhostBuilding_BP successful! [in 249 ms]
+[2016.03.09-16.09.24:961][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.09.24:961][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.09-16.09.24:961][242]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:09:24 am)
+[2016.03.09-16.09.24:961][242]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.09.25:210][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.248687s)
+[2016.03.09-16.09.25:211][242]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.09.25:211][242]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2016.03.09-16.09.25:212][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.250364s)
+[2016.03.09-16.09.25:298][242]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.09.25:307][242]LogInit: FAudioDevice initialized.
+[2016.03.09-16.09.25:349][242]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.09.25:378][242]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.09-21.39.25
+[2016.03.09-16.09.25:379][242]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.09.25:380][242]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.09.25:384][242]LogWorld: Bringing up level for play took: 0.033024
+[2016.03.09-16.09.25:437][242]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap -0.423
+[2016.03.09-16.09.25:437][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.09.40:213][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.09.40:439][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.09.40:550][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF6011D260
+[2016.03.09-16.09.43:382][526]BlueprintLog: New page: Compile GhostBuilding_BP
+[2016.03.09-16.09.43:631][526]BlueprintEditorCompileResults: Info [0620.82] Compile of GhostBuilding_BP successful! [in 249 ms]
+[2016.03.09-16.10.32:716][342]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.10.34:427][441]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.10.36:399][557]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GhostBuilding_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.SKEL_GhostBuilding_BP_C'
+[2016.03.09-16.12.51:000][163]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-16.14.06:452][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.14.06:452][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.09-16.14.06:452][444]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:14:06 am)
+[2016.03.09-16.14.06:452][444]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.14.06:759][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307173s)
+[2016.03.09-16.14.06:768][444]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.14.06:769][444]LogPlayLevel: PIE: World Init took: (0.009607s)
+[2016.03.09-16.14.06:769][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.317306s)
+[2016.03.09-16.14.06:861][444]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.14.06:871][444]LogInit: FAudioDevice initialized.
+[2016.03.09-16.14.06:917][444]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.14.06:957][444]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.09-21.44.06
+[2016.03.09-16.14.06:957][444]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.14.06:957][444]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.14.06:958][444]LogWorld: Bringing up level for play took: 0.039613
+[2016.03.09-16.14.07:008][444]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.148
+[2016.03.09-16.14.07:008][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.15.15:417][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.15.15:580][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.15.15:728][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF1F7B5B20
+[2016.03.09-16.15.21:401][288]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-16.15.24:901][493]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BuildingMaster_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buiding/BuildingMaster_BP.SKEL_BuildingMaster_BP_C'
+[2016.03.09-16.17.10:516][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.088
+[2016.03.09-16.17.10:524][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/CameraPawnController] ([1] browsable assets)...
+[2016.03.09-16.17.10:524][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/CameraPawnController]
+[2016.03.09-16.17.11:192][545]LogSavePackage: Save=563.965637ms
+[2016.03.09-16.17.11:192][545]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/CameraPawnController_Auto355AE419243E2A85385E05693DED2E982.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto3.uasset'
+[2016.03.09-16.17.11:261][545]LogSavePackage: Total save time: 735.461589ms
+[2016.03.09-16.17.11:261][545]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto3.uasset
+[2016.03.09-16.17.11:274][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP] ([1] browsable assets)...
+[2016.03.09-16.17.11:274][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP]
+[2016.03.09-16.17.11:494][545]LogSavePackage: Save=183.075851ms
+[2016.03.09-16.17.11:494][545]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/GhostBuilding_BP_Auto3ECBE862E4017E6B58C0F139BF5C4DD17.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP_Auto3.uasset'
+[2016.03.09-16.17.11:506][545]LogSavePackage: Total save time: 230.787668ms
+[2016.03.09-16.17.11:506][545]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP_Auto3.uasset
+[2016.03.09-16.17.11:517][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_Tutorial/HUDs/MainUI_HUD] ([1] browsable assets)...
+[2016.03.09-16.17.11:517][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_Tutorial/HUDs/MainUI_HUD]
+[2016.03.09-16.17.11:517][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.03.09-16.17.11:756][545]LogSavePackage: Save=209.702362ms
+[2016.03.09-16.17.11:756][545]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD_Auto35C347718419CA124A7516D9B6856D8D7.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset'
+[2016.03.09-16.17.11:785][545]LogSavePackage: Total save time: 266.495764ms
+[2016.03.09-16.17.11:785][545]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/RTS_Tutorial/HUDs/MainUI_HUD_Auto3.uasset
+[2016.03.09-16.17.11:792][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/MyGameState] ([1] browsable assets)...
+[2016.03.09-16.17.11:792][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/MyGameState]
+[2016.03.09-16.17.11:792][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.03.09-16.17.12:069][545]LogSavePackage: Save=247.455948ms
+[2016.03.09-16.17.12:069][545]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState_Auto3DE2D6E084FC0C232304A44A8C38D6DEE.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto3.uasset'
+[2016.03.09-16.17.12:084][545]LogSavePackage: Total save time: 291.413672ms
+[2016.03.09-16.17.12:084][545]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto3.uasset
+[2016.03.09-16.17.12:085][545]LogFileHelpers: Auto-saving content packages took 1.568
+[2016.03.09-16.49.34:487][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.49.34:487][152]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.09-16.49.34:517][152]LogPlayLevel: [PlayLevel] Compiling CameraPawnController before play...
+[2016.03.09-16.49.34:876][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 388 ms (3 blueprints)
+[2016.03.09-16.49.34:884][152]LogPlayLevel: [PlayLevel] Compiling GhostBuilding_BP before play...
+[2016.03.09-16.49.35:045][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 558 ms (3 blueprints)
+[2016.03.09-16.49.35:048][152]LogPlayLevel: [PlayLevel] Compiling MyGameState before play...
+[2016.03.09-16.49.35:192][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 704 ms (3 blueprints)
+[2016.03.09-16.49.35:294][152]PIE: New page: PIE session: RTS_TestMap (10-Mar-2016 3:49:35 am)
+[2016.03.09-16.49.35:294][152]LogPlayLevel: Creating play world package: /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap
+[2016.03.09-16.49.35:505][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.211290s)
+[2016.03.09-16.49.35:507][152]LogAIModule: Creating AISystem for world RTS_TestMap
+[2016.03.09-16.49.35:507][152]LogPlayLevel: PIE: World Init took: (0.001661s)
+[2016.03.09-16.49.35:507][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.213260s)
+[2016.03.09-16.49.35:596][152]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-16.49.35:606][152]LogInit: FAudioDevice initialized.
+[2016.03.09-16.49.35:647][152]LogWorld: Game class is 'MyGameGameMode_C'
+[2016.03.09-16.49.35:680][152]LogWorld: Bringing World /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 60) at 2016.03.09-22.19.35
+[2016.03.09-16.49.35:680][152]LogActor:Warning: GameSession /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.49.35:681][152]LogActor:Warning: GameNetworkManager /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.09-16.49.35:681][152]LogWorld: Bringing up level for play took: 0.032994
+[2016.03.09-16.49.35:713][152]PIE: Info Play in editor start time for /Game/RTS_Tutorial/Maps/UEDPIE_0_RTS_TestMap 1.854
+[2016.03.09-16.49.35:714][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.50.08:449][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.50.08:613][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_Tutorial/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2016.03.09-16.50.08:787][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF63146520
+[2016.03.09-16.50.38:243][785]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_Tutorial/Maps/RTS_TestMap' took 0.085
+[2016.03.09-16.50.38:252][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/CameraPawnController] ([1] browsable assets)...
+[2016.03.09-16.50.38:252][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/CameraPawnController]
+[2016.03.09-16.50.39:182][785]LogSavePackage: Save=736.591187ms
+[2016.03.09-16.50.39:182][785]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/CameraPawnController_Auto481BD4EB3493D1076EB701D8D3DFBAA12.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto4.uasset'
+[2016.03.09-16.50.39:184][785]LogSavePackage: Total save time: 860.911455ms
+[2016.03.09-16.50.39:184][785]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/CameraPawnController_Auto4.uasset
+[2016.03.09-16.50.39:192][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP] ([1] browsable assets)...
+[2016.03.09-16.50.39:192][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP]
+[2016.03.09-16.50.39:407][785]LogSavePackage: Save=198.982803ms
+[2016.03.09-16.50.39:407][785]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/GhostBuilding_BP_Auto48BE1B56A45FE5ED4BF89D79D50B91F29.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP_Auto4.uasset'
+[2016.03.09-16.50.39:408][785]LogSavePackage: Total save time: 215.319633ms
+[2016.03.09-16.50.39:408][785]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP_Auto4.uasset
+[2016.03.09-16.50.39:414][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/MyGameState] ([1] browsable assets)...
+[2016.03.09-16.50.39:414][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/MyGameState]
+[2016.03.09-16.50.39:415][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.03.09-16.50.39:831][785]LogSavePackage: Save=310.110565ms
+[2016.03.09-16.50.39:831][785]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState_Auto44861298E446C762F7546BDAFE3BC7D2B.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto4.uasset'
+[2016.03.09-16.50.39:832][785]LogSavePackage: Total save time: 416.831542ms
+[2016.03.09-16.50.39:832][785]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Saved/Autosaves/Game/GameBP/MyGameState_Auto4.uasset
+[2016.03.09-16.50.39:832][785]LogFileHelpers: Auto-saving content packages took 1.588
+[2016.03.09-17.07.16:214][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CameraPawnController" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/CameraPawnController.uasset" SILENT=true
+[2016.03.09-17.07.16:775][919]LogSavePackage: Save=539.346008ms
+[2016.03.09-17.07.16:775][919]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/CameraPawnController1479914D4847FFE867D9C893ED418FFB.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/CameraPawnController.uasset'
+[2016.03.09-17.07.16:777][919]LogSavePackage: Total save time: 561.791539ms
+[2016.03.09-17.07.16:777][919]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/CameraPawnController.uasset
+[2016.03.09-17.07.16:788][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Buiding/GhostBuilding_BP" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset" SILENT=true
+[2016.03.09-17.07.16:992][919]LogSavePackage: Save=187.899796ms
+[2016.03.09-17.07.16:992][919]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/GhostBuilding_BPD14FA3CE4837E7C6B54B3C8F76A5569F.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset'
+[2016.03.09-17.07.16:994][919]LogSavePackage: Total save time: 205.035988ms
+[2016.03.09-17.07.16:994][919]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/TopDownBP/Blueprints/Buiding/GhostBuilding_BP.uasset
+[2016.03.09-17.07.17:004][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_Tutorial/HUDs/MainUI_HUD" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset" SILENT=true
+[2016.03.09-17.07.17:297][919]LogSavePackage: Save=275.692047ms
+[2016.03.09-17.07.17:297][919]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MainUI_HUD298A9AE54846FCB1A7D46FB311D534F3.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset'
+[2016.03.09-17.07.17:299][919]LogSavePackage: Total save time: 294.169780ms
+[2016.03.09-17.07.17:299][919]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/RTS_Tutorial/HUDs/MainUI_HUD.uasset
+[2016.03.09-17.07.17:309][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/MyGameState" FILE="F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset" SILENT=true
+[2016.03.09-17.07.17:554][919]LogSavePackage: Save=228.721634ms
+[2016.03.09-17.07.17:554][919]LogSavePackage: Moving 'F:/Programs/Unreal 4/RTS_Tutorial/Saved/MyGameState4C2E30C04C556AEF23E44CBC4A602CB1.tmp' to 'F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset'
+[2016.03.09-17.07.17:556][919]LogSavePackage: Total save time: 246.249065ms
+[2016.03.09-17.07.17:556][919]LogSavePackage:Warning: Finished SavePackage F:/Programs/Unreal 4/RTS_Tutorial/Content/GameBP/MyGameState.uasset
+[2016.03.09-17.07.25:397][335]LogUProjectInfo: Found projects:
+[2016.03.09-17.07.28:953][363]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.03.09-17.07.29:743][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.09-17.07.29:815][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.09-17.07.29:880][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.09-17.07.29:944][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.09-17.07.30:899][364]Cmd: QUIT_EDITOR
+[2016.03.09-17.07.32:330][364]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.09-17.07.32:685][364]LogExit: Preparing to exit.
+[2016.03.09-17.07.34:315][364]LogExit: Editor shut down
+[2016.03.09-17.07.34:316][364]LogExit: Transaction tracking system shut down
+[2016.03.09-17.07.34:456][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF75900E00
+[2016.03.09-17.07.34:473][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF113CA200
+[2016.03.09-17.07.34:475][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF74DFE5C0
+[2016.03.09-17.07.34:481][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF4CDE8C20
+[2016.03.09-17.07.34:481][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF4A2E6980
+[2016.03.09-17.07.34:484][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF5EB696C0
+[2016.03.09-17.07.34:488][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF33952C00
+[2016.03.09-17.07.34:493][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF1C28E980
+[2016.03.09-17.07.34:494][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF393DDE40
+[2016.03.09-17.07.34:496][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF5548CD60
+[2016.03.09-17.07.34:497][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF5548FE20
+[2016.03.09-17.07.38:465][364]LogExit: Object subsystem successfully closed.
+[2016.03.09-17.07.39:421][364]LogD3D11RHI: Shutdown
+[2016.03.09-17.07.39:421][364]LogD3D11RHI: CleanupD3DDevice
+[2016.03.09-17.07.40:762][364]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.09-17.07.42:251][364]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.03.09-17.07.42:251][364]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.03.09-17.07.42:251][364]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.09-17.07.42:252][364]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.09-17.07.42:252][364]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.09-17.07.42:295][364]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.09-17.07.42:295][364]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.09-17.07.42:319][364]LogModuleManager: Shutting down and abandoning module SceneOutliner (191)
+[2016.03.09-17.07.42:336][364]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.03.09-17.07.42:362][364]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.03.09-17.07.42:390][364]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.03.09-17.07.42:403][364]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.03.09-17.07.42:403][364]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.03.09-17.07.42:403][364]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.03.09-17.07.42:403][364]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.03.09-17.07.42:404][364]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.03.09-17.07.42:404][364]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.03.09-17.07.42:413][364]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.03.09-17.07.42:413][364]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.03.09-17.07.42:413][364]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.03.09-17.07.42:413][364]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.03.09-17.07.42:457][364]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.03.09-17.07.42:457][364]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.03.09-17.07.42:535][364]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.03.09-17.07.42:535][364]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.03.09-17.07.42:560][364]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.03.09-17.07.42:560][364]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.03.09-17.07.43:046][364]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.03.09-17.07.43:046][364]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.03.09-17.07.43:046][364]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.03.09-17.07.43:046][364]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.03.09-17.07.43:136][364]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.03.09-17.07.43:136][364]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.03.09-17.07.43:149][364]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.03.09-17.07.43:149][364]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.03.09-17.07.43:156][364]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.03.09-17.07.43:172][364]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.03.09-17.07.43:172][364]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.03.09-17.07.43:172][364]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.03.09-17.07.43:185][364]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.03.09-17.07.43:185][364]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.03.09-17.07.43:185][364]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.03.09-17.07.43:194][364]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.03.09-17.07.43:194][364]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.03.09-17.07.43:214][364]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.03.09-17.07.43:214][364]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.03.09-17.07.43:236][364]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.03.09-17.07.43:236][364]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.03.09-17.07.43:259][364]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.03.09-17.07.43:277][364]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.03.09-17.07.43:280][364]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.03.09-17.07.43:287][364]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.03.09-17.07.43:287][364]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.03.09-17.07.43:296][364]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.03.09-17.07.43:302][364]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.03.09-17.07.43:317][364]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.03.09-17.07.43:339][364]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.03.09-17.07.43:339][364]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.03.09-17.07.43:357][364]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.03.09-17.07.43:357][364]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.03.09-17.07.43:383][364]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.03.09-17.07.43:383][364]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.03.09-17.07.43:383][364]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.03.09-17.07.43:385][364]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.03.09-17.07.43:385][364]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.03.09-17.07.43:391][364]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.03.09-17.07.43:391][364]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.03.09-17.07.43:401][364]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.03.09-17.07.43:474][364]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.03.09-17.07.43:494][364]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.03.09-17.07.43:502][364]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.03.09-17.07.43:543][364]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.03.09-17.07.43:543][364]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.03.09-17.07.43:543][364]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.03.09-17.07.43:549][364]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.03.09-17.07.43:550][364]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.03.09-17.07.43:550][364]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.03.09-17.07.43:733][364]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.03.09-17.07.43:764][364]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.03.09-17.07.43:765][364]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.03.09-17.07.43:896][364]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.03.09-17.07.43:907][364]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.03.09-17.07.43:907][364]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.03.09-17.07.43:907][364]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.03.09-17.07.43:952][364]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.03.09-17.07.43:969][364]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.03.09-17.07.43:969][364]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.03.09-17.07.43:969][364]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.03.09-17.07.43:991][364]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.03.09-17.07.43:991][364]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.03.09-17.07.43:991][364]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.03.09-17.07.44:004][364]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.03.09-17.07.44:004][364]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.03.09-17.07.44:021][364]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.03.09-17.07.44:037][364]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.03.09-17.07.44:049][364]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.03.09-17.07.44:059][364]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.03.09-17.07.44:059][364]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.03.09-17.07.44:070][364]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.03.09-17.07.44:074][364]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.03.09-17.07.44:110][364]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.03.09-17.07.44:164][364]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.03.09-17.07.44:169][364]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.03.09-17.07.44:169][364]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.03.09-17.07.44:183][364]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.03.09-17.07.44:186][364]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.03.09-17.07.44:445][364]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.03.09-17.07.44:447][364]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.03.09-17.07.44:505][364]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.09-17.07.44:606][364]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.09-17.07.44:606][364]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.09-17.07.44:651][364]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.09-17.07.44:697][364]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.09-17.07.44:697][364]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.09-17.07.44:716][364]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.09-17.07.44:716][364]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.09-17.07.44:716][364]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.09-17.07.44:716][364]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.09-17.07.44:754][364]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.09-17.07.44:754][364]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.09-17.07.44:778][364]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.09-17.07.44:778][364]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.09-17.07.44:778][364]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.09-17.07.44:819][364]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.09-17.07.44:990][364]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.09-17.07.44:990][364]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.09-17.07.44:990][364]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.09-17.07.44:990][364]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.09-17.07.44:998][364]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.09-17.07.45:054][364]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.09-17.07.45:073][364]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.09-17.07.45:080][364]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.09-17.07.45:084][364]LogDerivedDataCache: Shutdown
+[2016.03.09-17.07.45:084][364]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.09-17.07.45:094][364]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.09-17.07.45:106][364]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.09-17.07.45:117][364]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.09-17.07.45:117][364]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.09-17.07.45:129][364]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.09-17.07.45:138][364]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.09-17.07.45:167][364]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.09-17.07.45:167][364]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.09-17.07.45:167][364]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.09-17.07.45:167][364]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.09-17.07.45:178][364]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.09-17.07.45:201][364]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.09-17.07.45:206][364]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.09-17.07.45:206][364]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.09-17.07.45:258][364]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.09-17.07.45:301][364]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.09-17.07.45:301][364]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.09-17.07.45:301][364]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.09-17.07.45:301][364]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.09-17.07.45:367][364]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.09-17.07.45:410][364]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.09-17.07.45:447][364]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.09-17.07.45:507][364]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.09-17.07.45:618][364]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.09-17.07.45:753][364]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.09-17.07.45:798][364]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.09-17.07.45:798][364]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.09-17.07.45:803][364]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.09-17.07.45:860][364]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.09-17.07.45:896][364]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.09-17.07.45:906][364]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.09-17.07.45:906][364]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.09-17.07.45:906][364]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.09-17.07.45:906][364]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.09-17.07.45:906][364]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.09-17.07.49:955][364]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.09-17.07.50:071][364]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.09-17.07.50:071][364]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.09-17.07.50:094][364]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.09-17.07.50:094][364]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.09-17.07.50:094][364]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.09-17.07.50:124][364]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.09-17.07.50:131][364]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.09-17.07.50:142][364]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.09-17.07.50:142][364]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.09-17.07.50:153][364]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.09-17.07.50:200][364]LogExit: Exiting.
+[2016.03.09-17.07.50:232][364]Log file closed, 03/09/16 22:37:50
